@@ -3,6 +3,7 @@ import { AddThoughtForm } from './components/AddThoughtForm';
 import { Thought } from './components/Thought';
 import { generateId, getNewExpirationTime } from './components/Utilities';
 
+
 function App() {
   const [thoughts, setThoughts] = useState([
     {
